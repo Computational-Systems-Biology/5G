@@ -12,6 +12,10 @@ Since functional class sorting is reported to be more sensitive than over-repres
 Additionally, we executed a parallel enrichment analysis of the RNA-Seq and methylation data employing the mitch library [7]. The same background gene set is utilized once more, with the minimum set size threshold maintained at 5. For ranking, t-statistics provided in the output of the ChAMP analysis is used.
 
 
+
+
+
+
 [1] Falcon S, Gentleman R (2007) Using GOstats to test gene lists for GO term association. Bioinformatics 23(2):257–258.
 
 [2] Carlson M, Falcon S, Pages H, Li N, , et al. (2019) org. hs. eg. db: Genome wide annotation for human. R package version 3(2):3.
