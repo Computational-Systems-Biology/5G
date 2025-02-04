@@ -1,0 +1,14 @@
+# Gene Ontology Enrichment
+
+Gene ontology (GO) enrichment analysis serves as a valuable tool to assess the functional significance of a particular collection of genes , such as those that are differentially expressed or methylated,  in relation to biological processes, molecular functions, and cellular components. In order to determine statistical significance, a hypergeometric test is conducted to evaluate whether any observed enrichment of GO terms in the gene list is statistically significant. This test determines whether any GO terms are over-represented or if the number of selected genes associated with a particular term is greater than expected.
+
+We conducted the GO enrichment analysis using GOstats \cite{Falcon2007}, a package available in R through Bioconductor, when the number of differentially expressed or methylated genes is greater than or equal to 5. \textcolor{red}{The org.Hs.eg.db database \cite{carlson2019org}, which serves as an organism-level package utilizing a central gene identifier, namely the Entrez gene ID, and encompasses mappings between this identifier and various other types of identifiers, specifically GO terms, is utilized as the background gene list for this analysis. The terms associated with fewer than 5 genes are discarded. This database comprises 20,692 genes and 18,348 GO terms, with the filtered database yielding 7,349 GO terms when the size threshold is established at a minimum of 5 genes: 5,029 Biological Process (BP), 920 Cellular Component (CC), and 1,400 Molecular Function (MF).}
+
+We used the Benjamini-Hochberg method \cite{Benjamini1995} for multiple test corrections, i.e. to calculate adjusted p-values, since the analysis output consists of only p-values. We assess the analysis outcomes by comparing the number of significant GO terms identified with an adjusted p-value threshold of 0.05.
+
+
+Since functional class sorting is reported to be more sensitive than over-representation analysis \cite{ziemann2024two}, we also conducted a fast preranked gene set enrichment analysis using the fgsea library \cite{Korotkevich060012} for the RNA-Seq data. Gene ontology biological process gene sets, obtained from the Molecular Signatures Database (MSigDB) \cite{liberzon2015molecular}, are used as background gene set with a minimum gene set size threshold of five. The ranking metric was the \textit{stat} value, corresponding to the t-statistic provided in the output of the DESeq2 analysis.}
+
+Additionally, we executed a parallel enrichment analysis of the RNA-Seq and methylation data employing the mitch library \cite{kaspi2020mitch}. The same background gene set is utilized once more, with the minimum set size threshold maintained at 5. For ranking, t-statistics provided in the output of the ChAMP analysis is used.}
+
+The combinatorial analysis is performed using the GOstat package.
