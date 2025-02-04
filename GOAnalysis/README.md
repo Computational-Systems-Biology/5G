@@ -13,10 +13,17 @@ Additionally, we executed a parallel enrichment analysis of the RNA-Seq and meth
 
 
 [1] Falcon S, Gentleman R (2007) Using GOstats to test gene lists for GO term association. Bioinformatics 23(2):257–258.
+
 [2] Carlson M, Falcon S, Pages H, Li N, , et al. (2019) org. hs. eg. db: Genome wide annotation for human. R package version 3(2):3.
+
 [3] Benjamini Y, Hochberg Y (1995) Controlling The False Discovery Rate - A Practical And Powerful Approach To Multiple Testing. Journal of the Royal Statistical Society. Series B:Methodological 57(November 1995):289–300.
+
 [4] Ziemann M, Schroeter B, Bora A (2024) Two subtle problems with overrepresentation analysis. Bioinformatics Advances 4(1):vbae159.
+
 [5] Korotkevich G, et al. (2021) Fast gene set enrichment analysis. bioRxiv
+
 [6] Liberzon A, et al. (2015) The molecular signatures database hallmark gene set collection. Cell systems 1(6):417–425.
+
 [7] Kaspi A, Ziemann M (2020) Mitch: Multi-contrast pathway enrichment for multi-omics and single-cell profiling data. BMC genomics 21:1–17
+
 
