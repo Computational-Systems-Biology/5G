@@ -1,0 +1,65 @@
+R version 4.3.3 (2024-02-29 ucrt)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows 10 x64 (build 19045)
+
+Matrix products: default
+
+
+locale:
+[1] LC_COLLATE=German_Germany.utf8  LC_CTYPE=German_Germany.utf8   
+[3] LC_MONETARY=German_Germany.utf8 LC_NUMERIC=C                   
+[5] LC_TIME=German_Germany.utf8    
+
+time zone: Europe/Berlin
+tzcode source: internal
+
+attached base packages:
+[1] parallel  stats4    stats     graphics  grDevices utils     datasets 
+[8] methods   base     
+
+other attached packages:
+ [1] mitch_1.14.0         org.Hs.eg.db_3.18.0  GOstats_2.68.0      
+ [4] graph_1.80.0         Category_2.68.0      Matrix_1.6-5        
+ [7] AnnotationDbi_1.64.1 IRanges_2.36.0       S4Vectors_0.40.2    
+[10] Biobase_2.62.0       BiocGenerics_0.48.1  flextable_0.9.7     
+[13] data.table_1.16.4    lubridate_1.9.4      forcats_1.0.0       
+[16] stringr_1.5.1        dplyr_1.1.4          purrr_1.0.2         
+[19] tidyr_1.3.1          tibble_3.2.1         ggplot2_3.5.1       
+[22] tidyverse_2.0.0      readr_2.1.5          fgsea_1.28.0        
+
+loaded via a namespace (and not attached):
+  [1] RColorBrewer_1.1-3      rstudioapi_0.17.1       magrittr_2.0.3         
+  [4] rmarkdown_2.29          zlibbioc_1.48.2         ragg_1.3.3             
+  [7] vctrs_0.6.5             memoise_2.0.1           RCurl_1.98-1.16        
+ [10] askpass_1.2.1           htmltools_0.5.8.1       KernSmooth_2.23-26     
+ [13] htmlwidgets_1.6.4       plyr_1.8.9              echarts4r_0.4.5        
+ [16] cachem_1.1.0            uuid_1.2-1              mime_0.12              
+ [19] lifecycle_1.0.4         pkgconfig_2.0.3         R6_2.5.1               
+ [22] fastmap_1.2.0           GenomeInfoDbData_1.2.11 MatrixGenerics_1.14.0  
+ [25] shiny_1.10.0            digest_0.6.37           colorspace_2.1-1       
+ [28] GGally_2.2.1            textshaping_0.4.1       RSQLite_2.3.9          
+ [31] timechange_0.3.0        httr_1.4.7              compiler_4.3.3         
+ [34] bit64_4.6.0-1           fontquiver_0.2.1        withr_3.0.2            
+ [37] BiocParallel_1.36.0     DBI_1.2.3               ggstats_0.8.0          
+ [40] gplots_3.2.0            MASS_7.3-60.0.1         openssl_2.3.1          
+ [43] caTools_1.18.3          gtools_3.9.5            tools_4.3.3            
+ [46] beeswarm_0.4.0          zip_2.3.1               httpuv_1.6.15          
+ [49] glue_1.8.0              promises_1.3.2          grid_4.3.3             
+ [52] reshape2_1.4.4          generics_0.1.3          gtable_0.3.6           
+ [55] tzdb_0.4.0              hms_1.1.3               xml2_1.3.6             
+ [58] XVector_0.42.0          pillar_1.10.1           genefilter_1.84.0      
+ [61] later_1.4.1             splines_4.3.3           lattice_0.22-6         
+ [64] survival_3.8-3          bit_4.5.0.1             annotate_1.80.0        
+ [67] tidyselect_1.2.1        RBGL_1.78.0             fontLiberation_0.1.0   
+ [70] GO.db_3.18.0            Biostrings_2.70.3       knitr_1.49             
+ [73] fontBitstreamVera_0.1.1 gridExtra_2.3           svglite_2.1.3          
+ [76] xfun_0.49               matrixStats_1.5.0       stringi_1.8.4          
+ [79] kableExtra_1.4.0        evaluate_1.0.3          codetools_0.2-20       
+ [82] officer_0.6.7           gdtools_0.4.1           Rgraphviz_2.46.0       
+ [85] cli_3.6.2               xtable_1.8-4            systemfonts_1.2.0      
+ [88] munsell_0.5.1           Rcpp_1.0.14             GenomeInfoDb_1.38.8    
+ [91] png_0.1-8               XML_3.99-0.18           blob_1.2.4             
+ [94] AnnotationForge_1.44.0  bitops_1.0-9            viridisLite_0.4.2      
+ [97] GSEABase_1.64.0         scales_1.3.0            crayon_1.5.3           
+[100] rlang_1.1.5             cowplot_1.1.3           fastmatch_1.1-6        
+[103] KEGGREST_1.42.0        

@@ -1,0 +1,43 @@
+R version 4.3.3 (2024-02-29 ucrt)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows 10 x64 (build 19045)
+
+Matrix products: default
+
+
+locale:
+[1] LC_COLLATE=German_Germany.utf8  LC_CTYPE=German_Germany.utf8   
+[3] LC_MONETARY=German_Germany.utf8 LC_NUMERIC=C                   
+[5] LC_TIME=German_Germany.utf8    
+
+time zone: Europe/Berlin
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] flextable_0.9.7   data.table_1.16.4 lubridate_1.9.4   forcats_1.0.0    
+ [5] stringr_1.5.1     dplyr_1.1.4       purrr_1.0.2       tidyr_1.3.1      
+ [9] tibble_3.2.1      ggplot2_3.5.1     tidyverse_2.0.0   readr_2.1.5      
+[13] fgsea_1.28.0     
+
+loaded via a namespace (and not attached):
+ [1] generics_0.1.3          fontLiberation_0.1.0    xml2_1.3.6             
+ [4] stringi_1.8.4           lattice_0.22-6          hms_1.1.3              
+ [7] digest_0.6.37           magrittr_2.0.3          evaluate_1.0.3         
+[10] grid_4.3.3              timechange_0.3.0        fastmap_1.2.0          
+[13] Matrix_1.6-5            zip_2.3.1               scales_1.3.0           
+[16] fontBitstreamVera_0.1.1 textshaping_0.4.1       codetools_0.2-20       
+[19] cli_3.6.2               rlang_1.1.5             fontquiver_0.2.1       
+[22] cowplot_1.1.3           munsell_0.5.1           withr_3.0.2            
+[25] gdtools_0.4.1           officer_0.6.7           tools_4.3.3            
+[28] parallel_4.3.3          uuid_1.2-1              tzdb_0.4.0             
+[31] BiocParallel_1.36.0     colorspace_2.1-1        fastmatch_1.1-6        
+[34] vctrs_0.6.5             R6_2.5.1                lifecycle_1.0.4        
+[37] ragg_1.3.3              pkgconfig_2.0.3         pillar_1.10.1          
+[40] gtable_0.3.6            glue_1.8.0              Rcpp_1.0.14            
+[43] systemfonts_1.2.0       xfun_0.49               tidyselect_1.2.1       
+[46] knitr_1.49              rstudioapi_0.17.1       htmltools_0.5.8.1      
+[49] rmarkdown_2.29          compiler_4.3.3          askpass_1.2.1          
+[52] openssl_2.3.1          
